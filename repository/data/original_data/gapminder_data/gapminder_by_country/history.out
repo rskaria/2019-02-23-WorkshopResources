@@ -1,0 +1,267 @@
+    1  ls
+    2  pwd
+    3  ls-l
+    4  ls-a
+    5  ls -l
+    6  ls -la
+    7  pwd
+    8  cd --help
+    9  q
+   10  cd Docuemnts/
+   11  cd: Documents/
+   12  cd Documents/
+   13  ls -l
+   14  ..
+   15  cd ..
+   16  pwd
+   17  cd ..
+   18  pwd
+   19  cd ~
+   20  pwd
+   21  cd Documents/
+   22  cd ~/Downloads/
+   23  pwd
+   24  cd ~
+   25  pwd
+   26  cd ~
+   27  mkdir SDC_02-23-2019
+   28  ls -l
+   29  mkdir SDC_02-23-2019/repository
+   30  ls SDC_02-23-2019
+   31  mkdir SDC_02-23-2019/repository/thesis
+   32  mkdir SDC_02-23-2019/repository/analyses
+   33  mkdir SDC_02-23-2019/repository/data
+   34  mkdir SDC_02-23-2019/repository/data/original_data
+   35  mkdir SDC_02-23-2019/repository/data/processed_data
+   36  pwd
+   37  cd SDC_02-23-2019/
+   38  pwd
+   39  ls -l
+   40  cd repository/
+   41  ls
+   42  cd data/
+   43  ls
+   44  cd ~/SDC_02-23-2019/
+   45  ls
+   46  ls -la
+   47  ls -la repository/data/
+   48  cd repository/
+   49  nano thesis.txt
+   50  nano thesis.txt
+   51  nano thesis.txt
+   52  nano thesis.txt
+   53  ls -l
+   54  pwd
+   55  touch draft.txt
+   56  ls -l
+   57  nano draft.txt
+   58  mv draft.txt thesis/
+   59  ls thesis
+   60  ls -l thesis
+   61  pwd
+   62  ls
+   63  cp thesis.txt thesis/thesis_copy.txt
+   64  ls thesis
+   65  ls -l thesis
+   66  cd ~/SDC_02-23-2019/
+   67  pwd
+   68  git clone https://github.com/rskaria/2019-02-23-WorkshopResources.git
+   69  ls -l
+   70  ls
+   71  ls -la
+   72  ls
+   73  cp -r 2019-02-23-WorkshopResources/shell-lessons/data/* repository/data/original_data/
+   74  ls -la repository/data/original_data/ 
+   75  ls repository/data/original_data/
+   76  cd repository/
+   77  cat data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+   78  tail data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+   79  tail data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+   80  tail -1 data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+   81  head data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+   82  head -1 data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt
+   83  head -1 data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt
+   84  wc data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+   85  wc -l data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+   86  pwd
+   87  cd data/original_data/gapminder_data/gapminder_by_country/
+   88  pwd
+   89  ls -l
+   90  https://github.com/rskaria/2019-02-23-WorkshopResources.git
+   91  cat country.cc.txt 
+   92  mv country.cc.txt header.txt
+   93  cat header.txt
+   94  ls -l
+   95  cat header.txt 
+   96  cat *.cc.txt
+   97  cat *.cc.text less
+   98  cat *.cc.text | less
+   99  pwd
+  100  pwd
+  101  cat header.txt | head
+  102  cat *.cc.txt | head
+  103  cat *.cc.txt | tail
+  104  cat header.txt *.cc.txt >> ../
+  105  cat header.txt *.cc.txt >> ../../../processed_data/all_countries.txt
+  106  cd ~/SDC_02-23-2019/repository/data/processed_data/
+  107  ls
+  108  ls -l
+  109  wc -l all_countries.txt 
+  110  head all_countries.txt 
+  111  tail all_countries.txt 
+  112  pwd
+  113  cd ../../../
+  114  cd
+  115  pwd
+  116  pwd
+  117  cd ~/SDC_02-23-2019/
+  118  pwd
+  119  cd 2019-02-23-WorkshopResources/shell-lessons/data/gapminder_data/gapminder_by_country/
+  120  pwd
+  121  ls
+  122  ls -l
+  123  nano Argentina.cc.txt 
+  124  git status
+  125  git add Argentina.cc.txt 
+  126  git status
+  127  git commit -m "Fix date error in Argetina file"
+  128  git status
+  129  git config --global user.name "Rinku Skaria"
+  130  git config --global user.email "rinkuskaria@gmail.com"
+  131  git status
+  132  git commit -m "Fix date error in Argentina file"
+  133  git status
+  134  git log
+  135  cat Vietnam.cc.txt 
+  136  cp Vietnam.cc.txt 
+  137  cp Vietnam.cc.txt Vietnam_copy.cc.txt
+  138  ls
+  139  git status
+  140  git add Vietnam_copy.cc.txt 
+  141  git status
+  142  git commit -m "Create copy of Vietnam file"
+  143  git status
+  144  git log
+  145  git push
+  146  cd ~/SDC_02-23-2019/repository/data/processed_data/
+  147  head all_countries.txt 
+  148  ~/SDC_02-23-2019/repository/data/original_data/gapminder_data/gapminder_by_country/
+  149  cd ..
+  150  cd ../../..
+  151  cd ~/SDC_02-23-2019/rep
+  152  cd ..
+  153  cd ~/SDC_02-23-2019/repository/
+  154  pwd
+  155  mkdir scripts
+  156  ls
+  157  cp -r ~/SDC_02-23-2019/2019-02-23-WorkshopResources/shell-lessons/scripts/* scripts/
+  158  ls scripts/
+  159  cd data/
+  160  cd
+  161  cd ..
+  162  cd ~/SDC_02-23-2019/repository/data/original_data/gapminder_data/gapminder_by_country/
+  163  ls
+  164  wc Zimbabwe.cc.txt 
+  165  wc -l Zimbabwe.cc.txt 
+  166  wc -l *.txt
+  167  wc -1 ../../../processed_data/all_countries.txt 
+  168  cat A*.cc.txt
+  169  cat [yz]*.txt
+  170  cat [YZ]*.txt
+  171  cat [Ye]*.txt
+  172  cat [1952]*.txt
+  173  cat [^1952]*.txt
+  174  cat header.txt 
+  175  cut -f 5 Zimbabwe.cc.txt 
+  176  cut -f 2-4,6 Zimbabwe.cc.txt 
+  177  cut -f 5 Zimbabwe.cc.txt | sort -n
+  178  cut -f 5 Zimbabwe.cc.txt | sort -nr
+  179  cut -f 5 Zimbabwe.cc.txt | sort -nr | head -2
+  180  ls
+  181  ls | wc -l
+  182  grep "2007" [W-Z]*.txt
+  183  grep "b\2007\b" [W-Z]*.txt
+  184  grep "b\2007\b" [L-P]*.txt
+  185  grep "b\2007\b" [L-P]*.txt
+  186  grep "\b2007\b" [L-P]*.tx
+  187  grep "\b2007\b" [L-P]*.txt
+  188  grep "\b2007\b" [L-P]*.txt | wc -l
+  189  ls *.txt } wc -l
+  190  ls *.txt | wc -l
+  191  cd ../../../../..
+  192  cd ~/SDC_02-23-2019/repository/scripts/
+  193  cd ../data/original_data/gapminder_data/gapminder_by_country/
+  194  for gapminderfile in [W-Z]*.txt; do echo $gapminderfile; done
+  195  ls [W-Z]*.txt
+  196  for gapfinderfile in [W-Z]*.txt; do for gapminderfile in [W-Z]*.txt; do for gapminderfile in [W-z]*.txt; do cut -f 5 $gapminderfile | head -1; done; for gapminderfile in [W-Z]*.txt; do cut -f 5 $gapminderfile | head -1; done; for gapminderfile in [W-Z}*.txt; do cut -f 5 $gapminderfile | head -1; done; pwd; done; done
+  197  for zfiles in Z*.txt; do wc -1 $zfiles; done
+  198  cat Z*.txt | wc -l
+  199  for zfiles in Z*.txt; do wc -l1 $zfiles; done
+  200  for zfiles in Z*.txt; do wc -l  $zfiles; done
+  201  cat ../../../../scripts/loop_files.sh
+  202  bash ../../../../scripts/loop_files.sh
+  203  cat ../../../../scripts//loop_cut.sh
+  204  bash ../../../../scripts//loop_cut.sh
+  205  nano ../../../../scripts/loop_cut_low.sh
+  206  bash ../../../../scripts//loop_cut.sh
+  207  bash ../../../../scripts//loop_cut_.low.sh
+  208  bash ../../../../scripts//loop_cut_.low.sh
+  209  bash ../../../../scripts//loop_cut_.low.sh
+  210  nano ../../../../scripts/loop_cut_low.sh 
+  211  bash ../../../../scripts/loop_cut_low.sh 
+  212  cat ../../../../scripts/loop_cut.sh 
+  213  cat ../../../../scripts/loop_cut_arg.sh 
+  214  bash ../../../../scripts/loop_cut_arg.sh 2 
+  215  bash ../../../../scripts/loop_cut_arg.sh 2 -3
+  216  bash ../../../../scripts/loop_cut_arg.sh 2-3
+  217  bash ../../../../scripts/loop_cut_arg.sh 6
+  218  nano ../../../../scripts/loop_cut_arg.sh
+  219  bash ../../../../scripts/loop_cut_arg.sh 3 4
+  220  nano ../../../../scripts/loop_cut_arg.sh
+  221  nano ../../../../scripts/loop_cut_arg.sh
+  222  nano ../../../../scripts/loop_cut_arg.sh 3 4
+  223  nano ../../../../scripts/loop_cut_arg.sh 3-4
+  224  nano ../../../../scripts/loop_cut_arg.sh 3-4
+  225  nano ../../../../scripts/loop_cut_arg.sh 3-4
+  226  nano ../../../../scripts/loop_cut_arg.sh 1 2
+  227  bash  ../../../../scripts/loop_cut_arg.sh 1 2
+  228  bash  ../../../../scripts/loop_cut_arg.sh 1 2-3
+  229  bash -x  ../../../../scripts/loop_cut_arg.sh 1 2-3 
+  230  nano ../../../../scripts/loop_cut_arg.sh 1 2
+  231  bash -x  ../../../../scripts/loop_cut_arg.sh 2 5 6 3
+  232  bash -x  ../../../../scripts/loop_cut_arg.sh 2 5 6 2
+  233  bash  ../../../../scripts/loop_cut_arg.sh 1 4 5 5
+  234  nano  ../../../../scripts/loop_cut_arg.sh 1 4 5 5
+  235  nano  ../../../../scripts/loop_cut_arg.sh 1 4 5 5 nr
+  236  bash  ../../../../scripts/loop_cut_arg.sh 1 4 5 5 nr
+  237  echo "columns for cut: $1 $2 $3"
+  238  nano  ../../../../scripts/loop_cut_arg.sh
+  239* bash ../../../../scripts/loop_cut_arg.sh/
+  240  bash  ../../../../scripts/loop_cut_arg.sh 1 4 5 5 nr
+  241  nano  ../../../../scripts/loop_cut_arg.sh 1 4 5 5 nr
+  242  cat ../../../../scripts/conditional.sh cat ../../../../scripts/conditional.sh
+  243  cat ../../../../scripts/conditional.sh cat ../../../../scripts/loop_conditional1
+  244  cat ../../../../scripts/conditional.sh cat ../../../../scripts/loop_conditional1
+  245  cat ../../../../scripts/conditional1.sh
+  246  cat ../../../../scripts/loop_conditional.sh
+  247  cat ../../../../scripts/loop_conditional1.sh
+  248  bash ../../../../scripts/loop_conditional1.sh 5 low
+  249  nano ../../../../scripts/loop_conditional1.sh
+  250  bash ../../../../scripts/loop_conditional1.sh 1 low
+  251  cat ../../../../scripts/loop_files.sh
+  252  cat ../../../../scripts/loop_files.args.sh
+  253  cat ../../../../scripts/loop_files_.args.sh
+  254  cat ../../../../scripts/loop_files_args.sh
+  255  cat ../../../../scripts/loop_files_args.sh A*.txt
+  256  bash ../../../../scripts/loop_files_args.sh A*.txt
+  257  bash ../../../../scripts/loop_files_args.sh [I-K]*.txt
+  258  bash -x  ../../../../scripts/loop_files_args.sh [I-K]*.txt
+  259  cp ../../../../scripts/loop_conditional1_commented.sh 
+  260  cat ../../../../scripts/loop_conditional1_commented.sh 
+  261  cp ../../../../scripts/loop_conditional1_commented.sh ../../../../scripts/loop_shell_exercise.sh
+  262  nano ../../../../scripts/loop_conditional1_commented.sh ../../../../scripts/loop_shell_exercise.sh
+  263  ls Z*.txt > Zfiles.out
+  264  cat Zfiles.out
+  265  wc -l Zfiles.out 
+  266  history
+  267  history >history.out
